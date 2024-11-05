@@ -5,8 +5,6 @@
 ## Overview
 The **WellHer Portal** is a platform designed to provide women with comprehensive healthcare resources. Utilizing advanced technologies, including Google AI, it empowers women to take charge of their health through knowledge and community support.
 
-## Website Link
-[Visit WellHer Portal](#)  *(Replace this with the actual URL)*
 
 ## Features
 
@@ -60,3 +58,5 @@ To access the WellHer Portal, visit [WellHer Portal](#). For contributions or fe
 
 ## Conclusion
 The WellHer Portal is dedicated to fostering a supportive environment for women's health and wellness, empowering women to lead healthier lives. 🌟
+
+
