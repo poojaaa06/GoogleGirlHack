@@ -46,16 +46,6 @@ The WellHer Portal supports gender equality by:
 - **Improving Access**: Connecting women with appropriate healthcare providers.
 - **Encouraging Health**: Promoting proactive health management.
 
-## Technologies Used 🛠️
-- **Frontend**: HTML, CSS, JavaScript (React/Vue.js)
-- **Backend**: Python (Flask/Django) or Node.js
-- **Database**: PostgreSQL, MongoDB
-- **AI Integration**: Google AI APIs
-- **Deployment**: Heroku, AWS
-
-## Getting Started 🚀
-To access the WellHer Portal, visit [WellHer Portal](#). For contributions or feedback, contact us at [contact@wellherportal.com](mailto:contact@wellherportal.com).
-
 ## Conclusion
 The WellHer Portal is dedicated to fostering a supportive environment for women's health and wellness, empowering women to lead healthier lives. 🌟
 
