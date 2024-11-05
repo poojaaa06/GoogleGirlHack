@@ -26,14 +26,14 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <LottieView
-        source={require('../assets/lottie/period.json')} // You'll need to add a relevant Lottie animation
+        source={require('../assets/lottie/period.json')}
         autoPlay
         loop={false}
         onAnimationFinish={handleAnimationFinish}
         style={styles.lottie}
       />
       <Animated.Text style={[styles.appName, animatedStyle]}>
-        CycleCare
+      WellHer
       </Animated.Text>
       {showContent && (
         <>
@@ -42,7 +42,7 @@ export default function App() {
             <Link href="/onboarding" asChild>
               <TouchableOpacity style={styles.button}>
                 <Text style={styles.buttonText}>Get Started</Text>
-                <Icon name="arrow-right" size={20} color="#FFFFFF" />
+                <Icon name="arrow-right" size={20} color={styles.icon.color} />
               </TouchableOpacity>
             </Link>
           </Animated.View>
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#FFF5F7',
+    backgroundColor: '#FFFFFF', // Background color (white)
   },
   lottie: {
     width: 300,
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
   },
   button: {
-    backgroundColor: '#FF6B9C',
+    backgroundColor: '#FF5F9E', // Primary button color
     paddingHorizontal: 30,
     paddingVertical: 15,
     borderRadius: 25,
@@ -82,19 +82,19 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   buttonText: {
-    color: '#FFFFFF',
+    color: '#FFFFFF', // Text color on button (white)
     fontSize: 18,
     fontWeight: 'bold',
   },
   appName: {
     fontSize: 40,
     fontWeight: 'bold',
-    color: '#FF4081',
+    color: '#FF2E6C', // App name color (secondary)
     marginTop: 20,
   },
   subtitle: {
     fontSize: 18,
-    color: '#666666',
+    color: '#7B6F72', // Subtitle color (gray)
     marginTop: 10,
   },
   footer: {
@@ -103,8 +103,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   footerText: {
-    color: '#6D6D6D',
+    color: '#1D1617', // Footer text color (black)
     fontSize: 14,
     opacity: 0.8,
+  },
+  icon: {
+    color: '#FFFFFF', // Icon color on button (white)
   },
 });
